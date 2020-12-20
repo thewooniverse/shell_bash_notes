@@ -260,12 +260,6 @@ git merge origin/master
 
 
 
-git pull
-
-    Does something similar with merge origin / master.
-
-
-
 git push origin your_branch_name
 
     This command will push your branch up to the remote, origin.
