@@ -1,0 +1,7 @@
+#!/bin/bash
+             if ! grep  --only-matching crown <<< $I &> /dev/null; then
+                 echo "You have found a *crown*!" 
+                 echo "Add it to your inventory."
+             else
+                 echo "This treasure has already been taken."
+            fi
